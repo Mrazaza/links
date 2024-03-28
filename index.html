@@ -1,4 +1,11 @@
+<head>
+<!-- Connect Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
+<style>
 
+</style>
+</head>
 <body>
   <div class="items">
   <div class="banner">
@@ -58,6 +65,8 @@
   body {
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
   }
 </style>
 <style>
@@ -75,20 +84,34 @@ body {
 
 .name {
   color: #00473e;
+  display: flex;
+  justify-content: center;
+  font-family: 'PLAYFAIR DISPLAY BLACK', serif;
+font-size: 48px;
 }
-
+.banner {
+  display: flex;
+  justify-content: center;
+}
 .social-icons a {
   color: #faae2b;
   text-decoration: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .link {
   background-color: #ffa8ba;
+  display: flex;
+  align-items: center;
 }
 
 .link a {
   color: #001e1d;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  padding: 5px;
 }
 .link a {
   /* ... */
@@ -100,5 +123,6 @@ body {
   flex-direction: column;
   gap: 30px;
   max-width: 640px;
+  flex-grow: 1;
 }
 </style>
